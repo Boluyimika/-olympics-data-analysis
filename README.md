@@ -7,11 +7,12 @@ This project involves analyzing historical data from the Olympic Games to uncove
 1. [Project Overview](#project-overview)
 2. [Dataset Description](#dataset-description)
 3. [Analysis Questions](#analysis-questions)
-4. [Setup and Installation](#setup-and-installation)
-5. [Usage](#usage)
-6. [Results](#results)
-7. [Contributing](#contributing)
-8. [License](#license)
+4.  [Analysis SQL Queries](#analysis-SQL-questions)
+5. [Setup and Installation](#setup-and-installation)
+6. [Usage](#usage)
+7. [Results](#results)
+8. [Contributing](#contributing)
+9. [License](#license)
 
 ## Project Overview
 
@@ -26,7 +27,7 @@ The dataset used in this project contains information on the following:
 - **Medals**: Type (Gold, Silver, Bronze), Athlete, Country, Sport, and Event.
 - **Participating Nations**: List of countries that participated in each Olympic Games.
 
-The dataset is assumed to be stored in a relational database with the following tables:
+The dataset is assumed to be stored in a **relational database** with the following tables:
 
 - `olympic_games`
 - `athletes`
@@ -56,7 +57,15 @@ The following are the key questions addressed in this project:
 17. Identify which country won the most gold, most silver, most bronze medals, and the most medals in each Olympic Game.
 18. Which countries have never won a gold medal but have won silver/bronze medals?
 19. In which sport/event has India won the most medals?
-20. Break down all Olympic Games where India won a medal for Hockey and how many medals in each Olympic Game.
+20. Break down all Olympic Games where India won a medal for Hockey and how many medals in each Olympic Ga)
+
+
+## SQL Queries
+![ Queries](https://github.com/Boluyimika/-olympics-data-analysis/blob/main/Query-1.sql)
+
+## Visualization
+![Dashboard](https://github.com/Boluyimika/-olympics-data-analysis/blob/main/Olympic_data%20visualization.png?raw=true)
+![]()
 
 ## Setup and Installation
 
